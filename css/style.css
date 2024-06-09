@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+  
+}
+.container{
+    margin: auto;
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    align-items: center;
+}
+.container .card_bg{
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height:600px;
+    background-image: url("../images/images2.jpg");
+    justify-content: center;
+    align-items: center;
+   
+}
+.container .card_bg .card_rect{
+    position: relative;
+    
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url("../images/images3.jpg");
+    background-position: 0px -200%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.container .card_bg .card_rect .img1{
+    border: 5px solid white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    
+}
+.container .card_bg .card_rect .card_name{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(34, 33, 33);
+    top: 55%;
+    left: 30%;
+   
+}
+.faded_txt{
+    color: grey;
+}
+.city{
+    color: grey;
+    font-size: 10;
+    position: absolute;
+    top: 62%;
+    left: 40%;
+}
+.container .card_bg .card_rect .card_rating{
+    position: absolute;
+    display: flex;
+    top:82%;
+    
+    align-content: space-around;
+    /* border: 2px green dashed; */
+    justify-content: space-around;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+.container .card_bg .card_rect .card_rating .items{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 5%;
+
+}
+.container .card_bg .card_rect .hr{
+    position: absolute;
+    display: flex;
+    top:70%;
+    border-bottom: 1px solid grey;
+    width: 90%;
+    left: 5%;
+}
+.container .card_bg .card_rect .rating_type {
+    position: absolute;
+    display: flex;
+    top:90%;
+    
+    align-content: space-around;
+    /* border: 2px green dashed; */
+    justify-content: space-around;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+.container .card_bg .card_rect .rating_type .type_items {
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 7%;
+    color: rgb(206, 201, 201);
+}
